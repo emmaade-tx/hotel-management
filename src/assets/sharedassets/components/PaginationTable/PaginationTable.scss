@@ -1,0 +1,85 @@
+@import '../../base';
+
+table.paginationTable {
+  border-collapse: separate;
+  border-spacing: 0px 2px;
+
+  .paginationTable {
+      &-head-checkbox,
+      &-checkbox-cell {
+          padding-left: 0px;
+          padding-right: 0px;
+      }
+      &-head {
+          white-space: nowrap;
+          &-checkbox {
+              color:$vemba-grey;
+
+          }
+          &-sortLabel {
+    	         color: $vemba-black;
+                 font-family: Lato;
+                 font-size: 16px;
+                 line-height: 19px;
+          }
+          &.label-center {
+              span {
+                  margin-left: 0.5em;
+              }
+          }
+      }
+  }
+
+  .paginationTable-head:last-child,
+  .paginationTable-right-cell {
+      padding-right: 50px;
+  }
+
+  .paginationTable-head:first-child,
+  .paginationTable-left-cell {
+      padding-left: 50px;
+  }
+  .checkbox-cell {
+      width: 10%;
+  }
+
+  .paginationTable-left-cell {
+      text-transform: none;
+  }
+
+  .paginationTable-text-transform {
+      text-transform: none;
+  }
+
+  .paginationTable-pre-wrap {
+      white-space: pre-wrap;
+  }
+
+  .action-cells {
+      button {
+          color: #D8D8D8;
+      }
+  }
+
+  tr {
+    background: $vemba-white;
+    text-transform: capitalize;
+  }
+
+  tr th,
+  td {
+    word-break: break-word;
+    max-width: 250px;
+  }
+
+  .pagination-actions {
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+
+}
+
+.dropdown-menu a{
+    color: inherit;
+    text-decoration: none;
+}

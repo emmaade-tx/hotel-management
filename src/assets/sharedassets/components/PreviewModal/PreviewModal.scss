@@ -1,0 +1,12 @@
+@import '../../base';
+
+.preview-modal {
+  .modal-content-grid {
+      background: $vemba-black;
+      .modal-content {
+          width: 600px;
+          height: 340px;
+          overflow: hidden;
+      }
+  }
+}

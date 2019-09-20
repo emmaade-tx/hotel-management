@@ -1,0 +1,27 @@
+@import '../../base';
+#pagination-table {
+    .pagination-table-component {
+        .enhanced-toolbar-root-highlight {
+            color:$vemba-light-blue;
+            background-color: $vemba-light-grey-blue;
+            padding-right: 8px;
+            min-height : 15px;
+            max-height : 40px;
+        }
+        .spacer {
+            flex: 1 1 100%;
+        }
+
+        .actions {
+            flex-shrink: 0;
+        }
+        .title {
+            padding-left: 2em;
+            flex: 0 0 auto;
+        }
+        .actionIcon {
+            color:$vemba-grey;
+        }
+    }
+
+}

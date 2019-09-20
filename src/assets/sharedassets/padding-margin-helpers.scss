@@ -1,0 +1,14 @@
+$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
+$sides: (top, bottom, left, right);
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .margin#{to-upper-case(str-slice($side, 0, 1))}#{str-slice($side, 2)}#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .padding#{to-upper-case(str-slice($side, 0, 1))}#{str-slice($side, 2)}#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}
