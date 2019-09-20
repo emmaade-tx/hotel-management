@@ -2,3 +2,7 @@
 	path = sharedasset
 	url = https://github.com/ademola-raimi/sharedasset.git
 	branch = master
+[submodule "src/assets/sharedasset"]
+	path = src/assets/sharedasset
+	url = https://github.com/ademola-raimi/sharedasset.git
+	branch = master
