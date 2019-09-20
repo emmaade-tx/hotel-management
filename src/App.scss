@@ -1,0 +1,106 @@
+@import "./assets/sharedassets/base.scss";
+
+html,
+body,
+#root,
+#root > div {
+ background: $vemba-light-grey;
+}
+
+.App {
+  text-align: left;
+  &-logo {
+    height: 10vmin;
+  }
+}
+
+.inputField {
+  border-radius: 3px;
+  max-width: 355px;
+  background-color: $vemba-white;
+  display: flex;
+  padding-left: 17px;
+  padding-right: 5px;
+  justify-content: space-between;
+  .inputFieldProps {
+    &:hover {
+      fieldset {
+      }
+    }
+  }
+}
+
+.active-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  width: 100%;
+  height: inherit;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-container .main-container-grid {
+  width: 980px;
+  max-width: 980px;
+  padding: 0;
+  .main-container-grid {
+    padding: 10px 0;
+  }
+}
+
+.logout-user.App {
+    #root & {
+        background-color: $vemba-white;
+    }
+    background-color: $vemba-white;
+
+    > div {
+        background-color: $vemba-white;
+    }
+    .main-container {
+        height: calc(100vh - 98px); //98px is the header
+    }
+}
+
+
+.main-container {
+  background-color: $vemba-light-grey;
+  width: 980px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  &-grid {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+  }
+}
+
+//Mixins
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#user-menu-list .menu-list {
+  min-width: 135px;
+}

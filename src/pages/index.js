@@ -1,0 +1,14 @@
+export { default as Home } from './Home/Home';
+export { default as Login } from './Login/Login';
+export { default as Register } from './Register/Register';
+export { default as Bookings } from './Bookings/Bookings';
+export { default as BookingDetails } from './BookingDetails/BookingDetails';
+export { default as Hotel } from './Hotel/Hotel';
+export { default as HotelDetail } from './HotelDetail/HotelDetail';
+export { default as RoomTypes } from './RoomTypes/RoomTypes';
+export { default as RoomTypeDetails } from './RoomTypeDetails/RoomTypeDetails';
+export { default as Rooms } from './Rooms/Rooms';
+export { default as RoomDetails } from './RoomDetails/RoomDetails';
+export { default as PriceLists } from './PriceLists/PriceLists';
+export { default as PriceListDetails } from './PriceListDetails/PriceListDetails';
+export { default as Calendar } from './Calendar/Calendar';

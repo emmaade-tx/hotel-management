@@ -1,0 +1,37 @@
+@import '../../assets/sharedassets/base';
+
+.booking-container-main {
+    .container {
+        &-middlebar {
+            background: $vemba-white;
+            padding: 10px 30px 30px 30px;
+            .import-form {
+                &-textfield {
+                    font-family: Lato;
+                }
+            }
+            .form-error {
+                color: $vemba-red;
+                display: block;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                font-family: Lato;
+            }
+        }
+        &-bottombar {
+            margin-top: 25px;
+            display:flex;
+            justify-content: flex-end;
+            &-btn{
+                margin-left: 10px;
+                padding: 12px 38px;
+                width: 130px;
+                text-transform: capitalize;
+                font-size: 14px;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
