@@ -1,0 +1,4 @@
+[submodule "sharedasset"]
+	path = sharedasset
+	url = https://github.com/ademola-raimi/sharedasset.git
+	branch = master
