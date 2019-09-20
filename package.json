@@ -31,7 +31,8 @@
     "redux-saga": "^1.0.1"
   },
   "scripts": {
-    "begin:dev": "webpack-dev-server --config webpack.config.dev.js --port 3000",
+    "start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
+    "build": "webpack-dev-server --config webpack.config.dev.js",
     "test": "jest"
   },
   "eslintConfig": {
