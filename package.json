@@ -34,7 +34,8 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
     "build": "webpack-dev-server --config webpack.config.prod.js",
-    "test": "jest"
+    "test": "jest",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
